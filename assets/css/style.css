@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* Body Background color */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* header text type */
 
 .header {
     padding: 20px;
@@ -15,14 +19,20 @@ body {
     color: #ffffff;
 }
 
+/* Header 1 size */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Header 1 color change for letters 'seo' */
+
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Header section text type and size */
 
 .header section {
     padding-top: 15px;
