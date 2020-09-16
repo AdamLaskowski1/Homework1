@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* header text type */
+/* Header text type */
 
 .header {
     padding: 20px;
@@ -33,7 +33,7 @@ body {
 }
 
 /* Header section text type and size */
-
+/* Changed div to header to make semantic */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,9 +42,13 @@ body {
     font-size: 20px;
 }
 
+/* Changed div to header to make semantic */
+
 .header section ul {
     list-style-type: none;
 }
+
+/* Changed div to header to make semantic */
 
 .header section ul li {
     display: inline-block;
@@ -108,31 +112,39 @@ p {
     background-color: #2589bd;
 }
 
-/* Lead Generation Box */
-
-.benefit-lead, .benefit-brand, .benefit-cost {
+/* Benefits Box size */
+/* Combined classes with same elements */
+.benefit-lead, 
+.benefit-brand, 
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Class for Lead Generation header size and alignment */
-
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+/* Combined classes with same elements */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Class for Lead Generation Image formating */
-
-.benefit-lead img, .benefit-brand img, .benefit-cost img  {
+/* Combined classes with same elements */
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Class for Search Engine Optimization Section Appearance */
-
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* Combined classes with same elements */
+.search-engine-optimization,
+.online-reputation-management, 
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,39 +154,17 @@ p {
 }
 
 /* Height of search-engine-optimization img */
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* Height of online-reputation-management img */
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Height of social-media-marketing img */
-
+/* Combined classes with same elements */
+.search-engine-optimization img,
+.online-reputation-management img, 
 .social-media-marketing img {
     max-height: 200px;
 }
 
 /* Font size and spacing for search-engine-optimization */
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Font size and spacing for online-reputation-management */
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Font size and spacing for social-media-marketing */
-
+/* Combined classes with same elements */
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
