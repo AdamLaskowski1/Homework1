@@ -1,7 +1,4 @@
 
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-
-
 # 01 HTML CSS Git: Code Refactor
 
 ## The Header
