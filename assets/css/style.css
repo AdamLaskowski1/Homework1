@@ -5,13 +5,11 @@
 }
 
 /* Body Background color */
-
 body {
     background-color: #d9dcd6;
 }
 
-/* Header text type */
-
+/* Header text type, background color and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,20 +18,18 @@ body {
 }
 
 /* Header 1 size */
-
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Header 1 color change for letters 'seo' */
-
+/* Title color change for letters 'seo' in Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
 /* Header section text type and size */
-/* Changed div to header to make semantic */
+/* Changed 'div' to 'header' to make semantic */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,34 +38,35 @@ body {
     font-size: 20px;
 }
 
-/* Changed div to header to make semantic */
-
+/* Changed 'div' to 'header' to make semantic */
 .header section ul {
     list-style-type: none;
 }
 
-/* Changed div to header to make semantic */
-
+/* Changed 'div' to 'header' to make semantic */
+/* creates margin for the ul il text */
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Color for link texts */
-
+/* Color for link text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* changes font for all paragraphs */
+/* Added pseudo-class hover for the links */
+#links:hover {
+    color: darkblue;
+}
 
+/* changes font for all paragraph tags */
 p {
     font-size: 16px;
 }
 
-/* settings for meeting image */
-
+/* settings for main meeting image */
 .hero {
     height: 800px;
     width: 100%;
@@ -79,29 +76,26 @@ p {
     background-position: center;
 }
 
-/* images will float left */
-
+/* Section images will float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* images will float right */
-
+/* Section images will float right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* Section for Search Engine Optimization, Online Reputation, and Social Media Marketing */
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Section for Lead Generation, Brand Awareness */
+/* Section containing Lead Generation, Brand Awareness, and Cost Management */
 
 .benefits {
     margin-right: 20px;
@@ -114,7 +108,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Benefits Box size */
+/* Benefits Box size and text color */
 /* Combined classes with same elements */
 .benefit-lead, 
 .benefit-brand, 
@@ -123,7 +117,7 @@ p {
     color: #ffffff;
 }
 
-/* Class for Lead Generation header size and alignment */
+/* Class for Benefits header size and alignment */
 /* Combined classes with same elements */
 .benefit-lead h3,
 .benefit-brand h3,
@@ -132,7 +126,7 @@ p {
     text-align: center;
 }
 
-/* Class for Lead Generation Image formating */
+/* Class for Benefits Image formating */
 /* Combined classes with same elements */
 .benefit-lead img,
 .benefit-brand img,
@@ -155,7 +149,7 @@ p {
     color: #ffffff;
 }
 
-/* Height of search-engine-optimization img */
+/* Height of left section images */
 /* Combined classes with same elements */
 .search-engine-optimization img,
 .online-reputation-management img, 
@@ -163,7 +157,7 @@ p {
     max-height: 200px;
 }
 
-/* Font size and spacing for search-engine-optimization */
+/* Font size and spacing for left section */
 /* Combined classes with same elements */
 .search-engine-optimization h2, 
 .online-reputation-management h2, 
@@ -173,7 +167,6 @@ p {
 }
 
 /* Font type, location and spacing for footer */
-
 .footer {
     padding: 30px;
     clear: both;
@@ -182,7 +175,6 @@ p {
 }
 
 /* Font size footer */
-
 .footer h2 {
     font-size: 20px;
 }
